@@ -1,8 +1,40 @@
-# chatgpt
+# easy_chatgpt
 
 **写在最前：**
 
-ChatGPT的横空出世真的改变了世界，用过的人都知道ChatGPT完全可以作为生产力工具应用在很多领域。可以说ChatGPT是最近几年又一个的巨大风口，目前大量投资机构和政府部门都在鼓励和支持相关行业的发展。如果您也有使用ChatGPT赚钱或创业的想法，欢迎免费进群讨论，二维码在本文最后。群里有很多志同道合的朋友一起分享资讯，分享知识，对接资源。另外请点下右上角的小星星，方便您随时找到本项目。
+计划采用国内能调用的接口来重写一个最简单能部署的代码
+接口采用：https://github.com/xing61/xiaoyi-robot
+
+# 优质稳定的OpenAI的API接口-For开发者
+
+#### 介绍
+为开发者提供优质稳定的OpenAI相关的API调用接口。  
+小一机器人，提供ChatGPT的API调用，支持openai的API接口，支持：gpt-4，gpt-3.5。      
+要买openai的账号？  
+要科学上网？  
+要美元的银行卡？  
+通通不用的，直接调用就行，简单粗暴，关键稳定，超级好用！！  
+openai的国内代理，国内接口请求转发，api proxy  
+各种示例代码：https://github.com/xing61/xiaoyi-robot/blob/main/example.md
+
+- **项目主要优势**  
+  * 不限制国内使用，可以用微信充值，没有封号风险。
+  * 不用买openai的账号，不用美元的银行卡。 
+  * 无需代理即可访问，没有墙的阻拦。  
+  * 支持GPT4，并且没有每3小时25条消息的限制。  
+  * 兼容OpenAI接口格式，可以做到平替。支持vscode插件，支持autoGPT，agentGPT。API用法也可参考官方文档  
+  * 新增对Embeddings支持，可以用接口运行AutoGPT等应用。
+  * 新增对stream模式的支持，可以支持原生的各种应用
+  * 更多特性支持，敬请期待。也可直接向我们提交需求哦
+
+- **项目地址**   
+1、微信公众号：小一机器人，开发者单独的Secret Key、余额查询、示例代码等请从微信公众号“小一机器人”，点击菜单“Chat的API”查看。     
+账号信息管理：http://flag.smarttrot.com/#/my,  （暂时充值只能微信充值，所以充值要从微信公众号”小一机器人“中进行）      
+ ![小一机器人-公众号二维码-small](https://github.com/xing61/xiaoyi-robot/assets/38256442/c3a00169-d51b-48f7-b969-2303e9916886)  
+2、微信交流群（如果你也对本项目感兴趣，欢迎加入群聊参与讨论交流）：    
+![微信截图_20230723120823](https://github.com/xing61/xiaoyi-robot/assets/38256442/2d2ad0af-a3ba-4d7f-9ddb-ef0204efc0ac)  
+3、QQ群（彩蛋：群里有qq机器人：小一机器人，@他即可像访问chatgpt一样。另外现在加入邀请内测还能赠送免费token）  
+![qq群-微信截图_20230723120926](https://github.com/xing61/xiaoyi-robot/assets/38256442/7805499d-e0e5-41fb-b5a3-a90237b76730)  
 
 **首次使用配置：**
 
@@ -74,10 +106,6 @@ docker run -itd -v /root/chatgpt(本地目录):/usr/share/nginx/html --name ngin
 
 喜欢使用独立Windows桌面应用的朋友可以下载Release里面的exe文件运行，其实就是一个指向我演示网站的浏览器套个壳。
 
-7. 有没有可以注册会员的商业运营版？
-
-由于很多群友都有类似需求，我开发了一个款基于PHP+Mysql环境的商业版软件，已正式发布。有兴趣的话您可以访问这里查看详情：https://github.com/dirk1983/chatgpt_commercial
-
 ------
 
 附OpenAI官网的模型和接口调用介绍：
@@ -89,22 +117,3 @@ https://platform.openai.com/docs/api-reference/chat/create
 https://platform.openai.com/docs/guides/chat/introduction
 
 https://platform.openai.com/docs/api-reference/models/list
-
-------
-**对chatgpt感兴趣的同学们欢迎加群讨论。群里有很多大神，有问题可以互相帮助。**
-
-由于群里人数已超过200，无法直接扫码进群，想进群的朋友可以加热心网友小号，由他帮忙拉进群。
-
-![微信截图_20230306154434](https://user-images.githubusercontent.com/5563148/223048985-4cac05cb-acf0-4f04-aad5-1c3dcec609d0.png)
-
-
-
-
-有热心网友建议我放个打赏码，各位如果真的想表达感谢，小额即可。
-
-![打赏码](https://user-images.githubusercontent.com/5563148/222968018-9def451a-bbce-4a7e-bde6-edecc7ced40f.jpg)
-
-最后，我还做了个在微信个人订阅号中通过调用OpenAI最新接口和gpt-3.5-turbo模型实现ChatGPT聊天机器人的功能，已开源，需要的朋友也可以拿去。
-https://github.com/dirk1983/chatgpt-wechat-personal
-
-[![Star History Chart](https://api.star-history.com/svg?repos=dirk1983/chatgpt&type=Date)](https://star-history.com/#dirk1983/chatgpt&Date)
